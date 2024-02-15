@@ -1,0 +1,137 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Assistive Robotics Laboratory, Hosei University</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-deep_orange.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div style="text-align:right">
+				<p><a href="bio_jp.html" style="color: inherit; text-decoration: none; font-size: 1em;">▶日本語</a>&nbsp</p>
+			</div>
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <!--<div class="portfolio-logo"></div>-->
+					<span class="mdl-layout__title"><a href="http://www.hosei.ac.jp/english/"><img src="images/logo_hosei.png" width="40%" height="auto"></img></a></span>
+                    <span class="mdl-layout__title">Assistive Robotics Laboratory</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link" href="index.html">Home</a>
+                    <a class="mdl-navigation__link" href="research.html">Research</a>
+					<a class="mdl-navigation__link" href="publications.html">Publications</a>
+					<a class="mdl-navigation__link" href="award.html">Awards</a>
+					<a class="mdl-navigation__link" href="courses.html">Courses</a>
+					<a class="mdl-navigation__link" href="students.html">Members</a>
+                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+                <a class="mdl-navigation__link" href="research.html">Research</a>
+				<a class="mdl-navigation__link" href="publications.html">Publications</a>
+				<a class="mdl-navigation__link" href="award.html">Awards</a>
+				<a class="mdl-navigation__link" href="courses.html">Courses</a>
+				<a class="mdl-navigation__link" href="students.html">Members</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+			<h2>EMG Articficial Hand Research Group</h2>
+			<div class="mdl-card__media">
+                <img class="article-image" src="images\res_title.jpg" border="0" alt="" width="1024px">
+            </div>
+			
+                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Control of robotic hand using Surface EMG Data</h2>
+                    </div>
+                    <div class="mdl-grid portfolio-copy">
+                        <div class="mdl-card__supporting-text">
+                            <p>
+                                For a myoelectric prosthetic robot hand to be useful in everyday life
+                                situations, an accurate mapping of the muscle EMG signals to each finger
+                                motion is required. We propose a deep learning-based method for mapping
+                                the surface EMG signals to the hand gesture recognition. In our method,
+                                the EMG row data are used as input of a Convolution Neural Network (CNN)
+                                and the features of the EMG data are generated in the process of
+                                learning. The results show a good performance of CNN for most of 53
+                                considered gestures. In addition, the trained CNN performed well also in
+                                real time robot control.                                
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Students<h2>
+                    </div>
+                    <div class="mdl-grid portfolio-copy">
+                        <div class="mdl-card__supporting-text">
+                            <p>                            
+                                <li><b>Iizawa Kazuma</b></li>
+                                <li><b>Lai Yifan</b></li>
+                                <li><b>Soeda Takuto</b></li>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Demos Video</h2>
+                    </div>
+                    <div class="mdl-card__media">
+						<iframe width="100%" height="350" src="images/kinden.mp4" frameborder="0" gesture="media" allowfullscreen></iframe>
+                    </div>      
+                </div>
+
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Assistive Robotics Laboratory, Hosei University</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <!--<li><a href="#">日本語</a></li>-->
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+</html>
